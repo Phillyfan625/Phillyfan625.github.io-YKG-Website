@@ -72,13 +72,13 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-primary {
-    background: #e81050;
-    border-color: #e81050;
+    background: #101ee8;
+    border-color: #10abe8;
     color: #fff; }
     .btn.btn-primary:hover {
       background: #fff;
       border-color: #fff;
-      color: #e81050; }
+      color: #fff9fb; }
     .btn.btn-primary.btn-black--hover:hover {
       background: #666666;
       color: #fff; }
@@ -1679,7 +1679,7 @@ h1, h2, h3, h4, h5,
   padding: 20px;
   left: 50%;
   display: inline-block;
-  background: #dfd4d7; }
+  background: #000000; }
   .custom-direction a {
     text-decoration: none;
     color: #fff;
