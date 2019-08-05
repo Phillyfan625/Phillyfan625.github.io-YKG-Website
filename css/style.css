@@ -25,6 +25,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: white;
 }
 
 h1,
@@ -440,7 +441,7 @@ h5,
 
 .site-navbar .site-navigation .site-menu>li>a {
     padding: 5px 20px;
-    color: rgb(149, 52, 52);
+    color: rgb(9, 6, 141);
     display: inline-block;
     text-decoration: none !important;
 }
