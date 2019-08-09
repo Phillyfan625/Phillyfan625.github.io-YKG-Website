@@ -104,13 +104,13 @@ h5,
 }
 
 .btn.btn-primary {
-    background: #101ee8;
-    border-color: #10abe8;
+    background: #FF0000;
+    border-color: #000000;
     color: #fff;
 }
 
 .btn.btn-primary:hover {
-    background: #fff;
+    background: rgb(243, 0, 0);
     border-color: #fff;
     color: #fff9fb;
 }
@@ -136,7 +136,7 @@ h5,
 
 .form-control:active,
 .form-control:focus {
-    border-color: #33B2FF;
+    border-color: #FF0000;
 }
 
 .form-control:hover,
@@ -179,7 +179,7 @@ h5,
 
 .site-footer {
     padding: 4em 0;
-    background: #333333;
+    background: #000000;
 }
 
 @media (min-width: 768px) {
@@ -204,7 +204,7 @@ h5,
 }
 
 .site-footer a {
-    color: #999999;
+    color: #FF0000;
 }
 
 .site-footer a:hover {
@@ -222,7 +222,7 @@ h5,
 
 .bg-text-line {
     display: inline;
-    background: #000;
+    background: rgb(255, 0, 0);
     -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
     box-shadow: 20px 0 0 #000, -20px 0 0 #000;
 }
@@ -371,7 +371,7 @@ h5,
 }
 
 .ul-check.primary li:before {
-    color: #33B2FF;
+    color: #FF0000;
 }
 
 .select-wrap,
@@ -524,7 +524,7 @@ h5,
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active>a {
-    color: #33B2FF !important;
+    color: #FF0000 !important;
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown>li {
@@ -565,7 +565,7 @@ h5,
 .site-navbar .site-navigation .site-menu .has-children:hover>a,
 .site-navbar .site-navigation .site-menu .has-children:focus>a,
 .site-navbar .site-navigation .site-menu .has-children:active>a {
-    color: #33B2FF;
+    color: #FF0000;
 }
 
 .site-navbar .site-navigation .site-menu .has-children:hover,
@@ -807,7 +807,7 @@ h5,
 }
 
 .sticky-wrapper .site-navbar ul li a {
-    color: rgba(19, 18, 18, 0.7) !important;
+    color: rgba(255, 0, 0, 0.7) !important;
 }
 
 .sticky-wrapper .site-navbar ul li a.active {
@@ -826,7 +826,7 @@ h5,
 }
 
 .sticky-wrapper.is-sticky .site-navbar ul li a {
-    color: #000 !important;
+    color: rgb(255, 0, 0) !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar ul li a.active {
@@ -1215,7 +1215,7 @@ h5,
 }
 
 .slide-one-item .owl-dots .owl-dot.active span {
-    background: #33B2FF;
+    background: #FF0000;
 }
 
 .block-12 {
@@ -1293,7 +1293,7 @@ h5,
     width: 80px;
     height: 4px;
     margin-top: -4px;
-    background: #33B2FF;
+    background: #FF0000;
     top: 0;
 }
 
@@ -1321,7 +1321,7 @@ h5,
     display: block;
     border-radius: 50%;
     opacity: 1;
-    color: #33B2FF !important;
+    color: #FF0000 !important;
 }
 
 .block-16 figure .play-button:hover {
@@ -1370,7 +1370,7 @@ h5,
 }
 
 .block-25 ul li a .meta {
-    color: #33B2FF;
+    color: #FF0000;
 }
 
 .block-25 ul li a:hover img {
@@ -1409,7 +1409,7 @@ h5,
     position: absolute;
     width: 30px;
     height: 30px;
-    background: #33B2FF;
+    background: #FF0000;
     border-radius: 50%;
     color: #fff;
 }
@@ -1459,7 +1459,7 @@ h5,
 
 .site-block-27 ul li.active a,
 .site-block-27 ul li.active span {
-    background: #33B2FF;
+    background: #FF0000;
     color: #fff;
     border: 1px solid transparent;
 }
@@ -1602,7 +1602,7 @@ h5,
 .feature-1,
 .free-quote,
 .feature-3 {
-    background: #33B2FF;
+    background: #FF0000;
     padding: 30px 50px;
     color: rgba(255, 255, 255, 0.6);
     font-size: 15px;
@@ -1748,7 +1748,7 @@ h5,
 .how-it-work-item .number {
     width: 50px;
     height: 50px;
-    background: #33B2FF;
+    background: #FF0000;
     color: #fff;
     line-height: 55px;
     font-weight: 300;
@@ -1819,7 +1819,7 @@ h5,
     line-height: 40px;
     border-radius: 50%;
     display: inline-block;
-    background: #33B2FF;
+    background: #FF0000;
     color: #fff;
 }
 
@@ -1902,7 +1902,7 @@ h5,
 }
 
 .popular-category:hover {
-    background: #33B2FF;
+    background: #FF0000;
     -webkit-box-shadow: 0 5px 30px -5px rgba(232, 16, 80, 0.5);
     box-shadow: 0 5px 30px -5px rgba(232, 16, 80, 0.5);
 }
@@ -1972,7 +1972,7 @@ h5,
     font-size: 12px;
     display: inline-block;
     padding: 5px 30px;
-    background: #33B2FF;
+    background: #FF0000;
     border-radius: 30px;
     color: #fff;
     letter-spacing: .2em;

@@ -10,7 +10,7 @@
     --indigo: #0d0cb5;
     --purple: #7971ea;
     --pink: #e83e8c;
-    --red: #0004FF;
+    --red: #FF0000;
     --orange: #ef6c57;
     --yellow: #f89d13;
     --green: #8bc34a;
@@ -24,7 +24,7 @@
     --success: #8bc34a;
     --info: #17a2b8;
     --warning: #f89d13;
-    --danger: #0004FF;
+    --danger: #FF0000;
     --light: #f8f9fa;
     --dark: #343a40;
     --breakpoint-xs: 0;
@@ -2407,14 +2407,14 @@ textarea.form-control {
 .form-control.is-invalid,
 .was-validated .custom-select:invalid,
 .was-validated .form-control:invalid {
-    border-color: #0004FF
+    border-color: #FF0000
 }
 
 .custom-select.is-invalid:focus,
 .form-control.is-invalid:focus,
 .was-validated .custom-select:invalid:focus,
 .was-validated .form-control:invalid:focus {
-    border-color: #0004FF;
+    border-color: #FF0000;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(232, 16, 80, 0.25);
     box-shadow: 0 0 0 0.2rem rgba(232, 16, 80, 0.25)
 }
@@ -2439,7 +2439,7 @@ textarea.form-control {
 
 .form-check-input.is-invalid~.form-check-label,
 .was-validated .form-check-input:invalid~.form-check-label {
-    color: #0004FF
+    color: #FF0000
 }
 
 .form-check-input.is-invalid~.invalid-feedback,
@@ -2451,7 +2451,7 @@ textarea.form-control {
 
 .custom-control-input.is-invalid~.custom-control-label,
 .was-validated .custom-control-input:invalid~.custom-control-label {
-    color: #0004FF
+    color: #FF0000
 }
 
 .custom-control-input.is-invalid~.custom-control-label:before,
@@ -2479,7 +2479,7 @@ textarea.form-control {
 
 .custom-file-input.is-invalid~.custom-file-label,
 .was-validated .custom-file-input:invalid~.custom-file-label {
-    border-color: #0004FF
+    border-color: #FF0000
 }
 
 .custom-file-input.is-invalid~.custom-file-label:after,
@@ -2648,8 +2648,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .btn-primary:hover {
@@ -2667,8 +2667,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
@@ -2848,8 +2848,8 @@ fieldset:disabled a.btn {
 
 .btn-danger {
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .btn-danger:hover {
@@ -2867,8 +2867,8 @@ fieldset:disabled a.btn {
 .btn-danger.disabled,
 .btn-danger:disabled {
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .btn-danger:not(:disabled):not(.disabled).active,
@@ -2967,16 +2967,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-    color: #0004FF;
+    color: #FF0000;
     background-color: transparent;
     background-image: none;
-    border-color: #0004FF
+    border-color: #FF0000
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .btn-outline-primary.focus,
@@ -2987,7 +2987,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #0004FF;
+    color: #FF0000;
     background-color: transparent
 }
 
@@ -2995,8 +2995,8 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -3167,16 +3167,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-danger {
-    color: #0004FF;
+    color: #FF0000;
     background-color: transparent;
     background-image: none;
-    border-color: #0004FF
+    border-color: #FF0000
 }
 
 .btn-outline-danger:hover {
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .btn-outline-danger.focus,
@@ -3187,7 +3187,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-danger.disabled,
 .btn-outline-danger:disabled {
-    color: #0004FF;
+    color: #FF0000;
     background-color: transparent
 }
 
@@ -3195,8 +3195,8 @@ fieldset:disabled a.btn {
 .btn-outline-danger:not(:disabled):not(.disabled):active,
 .show>.btn-outline-danger.dropdown-toggle {
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
@@ -3288,7 +3288,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #0004FF;
+    color: #FF0000;
     background-color: transparent
 }
 
@@ -3565,7 +3565,7 @@ input[type=submit].btn-block {
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #0004FF
+    background-color: #FF0000
 }
 
 .dropdown-item.disabled,
@@ -3946,7 +3946,7 @@ input[type=submit].btn-block {
 
 .custom-control-input:checked~.custom-control-label:before {
     color: #fff;
-    background-color: #0004FF
+    background-color: #FF0000
 }
 
 .custom-control-input:focus~.custom-control-label:before {
@@ -4006,7 +4006,7 @@ input[type=submit].btn-block {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label:before {
-    background-color: #0004FF
+    background-color: #FF0000
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label:after {
@@ -4014,7 +4014,7 @@ input[type=submit].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label:before {
-    background-color: #0004FF
+    background-color: #FF0000
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label:after {
@@ -4034,7 +4034,7 @@ input[type=submit].btn-block {
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label:before {
-    background-color: #0004FF
+    background-color: #FF0000
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label:after {
@@ -4205,7 +4205,7 @@ input[type=submit].btn-block {
     width: 1rem;
     height: 1rem;
     margin-top: -0.25rem;
-    background-color: #0004FF;
+    background-color: #FF0000;
     border: 0;
     border-radius: 1rem;
     -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4242,7 +4242,7 @@ input[type=submit].btn-block {
 .custom-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #0004FF;
+    background-color: #FF0000;
     border: 0;
     border-radius: 1rem;
     -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4282,7 +4282,7 @@ input[type=submit].btn-block {
     margin-top: 0;
     margin-right: 0.2rem;
     margin-left: 0.2rem;
-    background-color: #0004FF;
+    background-color: #FF0000;
     border: 0;
     border-radius: 1rem;
     -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4416,7 +4416,7 @@ input[type=submit].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #0004FF
+    background-color: #FF0000
 }
 
 .nav-fill .nav-item {
@@ -4978,7 +4978,7 @@ input[type=submit].btn-block {
 
 .card-footer {
     padding: 0.75rem 1.25rem;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(248, 0, 0, 0.03);
     border-top: 1px solid rgba(0, 0, 0, 0.125)
 }
 
@@ -5233,7 +5233,7 @@ input[type=submit].btn-block {
     padding: 0.5rem 0.75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #0004FF;
+    color: #FF0000;
     background-color: #fff;
     border: 1px solid #dee2e6
 }
@@ -5271,8 +5271,8 @@ input[type=submit].btn-block {
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .page-item.disabled .page-link {
@@ -5344,7 +5344,7 @@ input[type=submit].btn-block {
 
 .badge-primary {
     color: #fff;
-    background-color: #0004FF
+    background-color: #FF0000
 }
 
 .badge-primary[href]:focus,
@@ -5404,7 +5404,7 @@ input[type=submit].btn-block {
 
 .badge-danger {
     color: #fff;
-    background-color: #0004FF
+    background-color: #FF0000
 }
 
 .badge-danger[href]:focus,
@@ -5640,7 +5640,7 @@ input[type=submit].btn-block {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #0004FF;
+    background-color: #FF0000;
     -webkit-transition: width 0.6s ease;
     -o-transition: width 0.6s ease;
     transition: width 0.6s ease
@@ -5746,8 +5746,8 @@ input[type=submit].btn-block {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #0004FF;
-    border-color: #0004FF
+    background-color: #FF0000;
+    border-color: #FF0000
 }
 
 .list-group-flush .list-group-item {
@@ -6727,7 +6727,7 @@ button.close {
 }
 
 .bg-primary {
-    background-color: #0004FF!important
+    background-color: #FF0000!important
 }
 
 a.bg-primary:focus,
@@ -6782,7 +6782,7 @@ button.bg-warning:hover {
 }
 
 .bg-danger {
-    background-color: #0004FF!important
+    background-color: #FF0000!important
 }
 
 a.bg-danger:focus,
@@ -6863,7 +6863,7 @@ button.bg-dark:hover {
 }
 
 .border-primary {
-    border-color: #0004FF!important
+    border-color: #FF0000!important
 }
 
 .border-secondary {
@@ -6883,7 +6883,7 @@ button.bg-dark:hover {
 }
 
 .border-danger {
-    border-color: #0004FF!important
+    border-color: #FF0000!important
 }
 
 .border-light {
@@ -9649,7 +9649,7 @@ button.bg-dark:hover {
 }
 
 .text-primary {
-    color: #0004FF!important
+    color: #FF0000!important
 }
 
 a.text-primary:focus,
@@ -9694,7 +9694,7 @@ a.text-warning:hover {
 }
 
 .text-danger {
-    color: #0004FF!important
+    color: #FF0000!important
 }
 
 a.text-danger:focus,
