@@ -791,6 +791,7 @@ h5,
     position: absolute;
     z-index: 100;
     width: 100%;
+    background-color: white;
 }
 
 .sticky-wrapper .site-navbar {
@@ -954,10 +955,10 @@ h5,
     font-weight: 200;
     font-style: italic;
 }
-
 .bg-light {
     background: #ccc;
 }
+
 
 .site-blocks-vs .bg-image {
     padding-top: 3em;
